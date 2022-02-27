@@ -1,11 +1,61 @@
 body{
-  background-color: #EAEAEA;
+  background-image: url('Backgr.jpg');
 }
-h1{
+.header{
+  background-color: #D1E8E4;
+  margin: 0;
+}
+.under{
+  text-decoration: underline;
+  font-size: 75px;
+}
+.roun{
+  border-radius: 50%;
+}
+
+.mnam{
+  display: inline;
+  position: absolute;
+  font-size: 50px;
+  font-style:oblique;
   text-align: center;
-  font-size:80px;
-  color: blue;
+  padding-left: 100px;
 }
-.heading{
-  font-size: 100px;
+.main_box{
+  display: inline-block;
+  height:600px;
+  width: 100%;
+  margin: 0;
+  background-color: #D1E8E4;
+}
+.feed{
+  display: inline-block;
+  height: auto;
+  width: 50%;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  background-color: #FFBC97
+}
+.view{
+  display: inline-block;
+  height: auto;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  background-color: #F4ABC4
+}
+.sub{
+  font-size: 40px;
+}
+.feed_ins{
+  display: inline-block;
+  border: solid 3px;
+  height: 40px;
+  width: 45%;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 30px;
+  background-color: inherit;
 }
