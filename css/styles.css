@@ -1,18 +1,7 @@
 body{
-  background-image: url('Backgr.jpg');
-  margin-top:0;
-  margin-left:0;
-  margin-right:0;
-  margin-bottom:0;
-}
-hr{
-  margin-top:0;
-  margin-bottom:0;
-}
-.header{
-  background-color: #D1E8E4;
-  margin: 0;
-  font-family:serif;
+  background-color: #FBD148;
+  height: 100%;
+  width:100%;
 }
 .under{
   text-decoration: underline;
@@ -21,51 +10,73 @@ hr{
 .roun{
   border-radius: 50%;
 }
+.header{
+  font-family: serif;
+}
 
 .mnam{
   display: inline;
   position: absolute;
-  font-size: 3.2rem;
-  font-style:oblique;
+  font-size: 50px;
+  font-family: serif;
+  font-style: normal;
   text-align: center;
   padding-left: 10%;
-  margin-top:15;
 }
 .main_box{
   display: inline-block;
   height:600px;
   width: 100%;
   margin: 0;
-  background-color: #D1E8E4;
+  border-bottom: 6px solid #DAD992;
 }
 .feed{
   display: inline-block;
   height: auto;
-  width: 50%;
-  position: absolute;
+  position: relative;
+  width: 49%;
   left: 0;
   text-align: center;
+  border-right: 6px solid #DAD992;
 }
 .view{
   display: inline-block;
   height: auto;
-  width: 50%;
+  width: 49%;
   position: absolute;
-  left: 50%;
+  left:50%;
   text-align: center;
 }
 .sub{
   font-size: 40px;
-  border-radius:50%;
+  border-radius: 50%;
+  width: auto;
   border: solid 3px;
+  background-color: #6ECB63
 }
 .feed_ins{
   display: inline-block;
-  border: sold 3px;
+  border-bottom: solid 3px;
+  border-radius: 34%;
   height: 40px;
-  width: 45%;
+  width: 34%;
   text-align: center;
   padding-top: 15px;
   font-size: 30px;
-  background-color: inherit;
+  margin-bottom: 20px;
+}
+.centre_base{
+  display: inline-block;
+  font-style: normal;
+  font-family: serif;
+  font-weight: bold;
+  border: solid 3px;
+  height: 40px;
+  width: 30%;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 30px;
+  position: absolute;
+  left :85%;
+  background-color: #8B9A46
 }
