@@ -5,13 +5,9 @@ body{
   margin-right:0;
   margin-bottom:0;
 }
-h1{
+hr{
   margin:0;
 }
-div{
-  margin:0;
-}
-
 .header{
   background-color: #D1E8E4;
   margin: 0;
