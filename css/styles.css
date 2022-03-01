@@ -25,7 +25,7 @@ hr{
 .mnam{
   display: inline;
   position: absolute;
-  font-size: 50px;
+  font-size: 3.2rem;
   font-style:oblique;
   text-align: center;
   padding-left: 300px;
@@ -61,7 +61,7 @@ hr{
 }
 .feed_ins{
   display: inline-block;
-  border: solid 3px;
+  border: sold 3px;
   height: 40px;
   width: 45%;
   text-align: center;
