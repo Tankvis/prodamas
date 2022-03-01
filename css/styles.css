@@ -58,6 +58,8 @@ hr{
 }
 .sub{
   font-size: 40px;
+  border-radius:50%;
+  border: solid 3px;
 }
 .feed_ins{
   display: inline-block;
