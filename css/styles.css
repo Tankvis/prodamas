@@ -12,6 +12,7 @@ hr{
 .header{
   background-color: #D1E8E4;
   margin: 0;
+  font-family:serif;
 }
 .under{
   text-decoration: underline;
