@@ -1,5 +1,6 @@
 body{
-  background-color: #FBD148;
+  background-image:url(../image/Background.png);
+  background-color: #6C4A4A;
   height: 100%;
   width:100%;
 }
@@ -49,17 +50,30 @@ body{
 }
 .sub{
   font-size: 40px;
-  border-radius: 50%;
+  
   width: auto;
   border: solid 3px;
   background-color: #6ECB63
 }
 .feed_ins{
+  background-color: #8D8DAA;
   display: inline-block;
   border-bottom: solid 3px;
   border-radius: 34%;
   height: 40px;
   width: 34%;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.nfeed_ins{
+  background-color: #8D8DAA;
+  display: inline-block;
+  border-bottom: solid 3px;
+  border-radius: 16%;
+  height: 40px;
+  width: 16%;
   text-align: center;
   padding-top: 15px;
   font-size: 30px;
@@ -79,4 +93,9 @@ body{
   position: absolute;
   left :85%;
   background-color: #8B9A46
+}
+footer{
+  display: block;
+  text-align:inherit;
+  font-family: serif;
 }
